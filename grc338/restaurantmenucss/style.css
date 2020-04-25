@@ -1,0 +1,52 @@
+body {
+    background: #fff;
+    color: rgb(83,99,112);
+    font-family: 'trade-gothic-next', sans-serif;
+    font-size: 14px;
+    margin: 2em 2em 2em 2em;
+    max-width: 800px;
+    padding: 2em 4em 4em 3em;
+}
+
+h1 {
+    font-family: 'chelsea-market-pro',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8em;
+    padding: 0em 2em 0em 2em;
+    text-align: center;
+    color: rgb(83,99,112);
+}
+
+h2 {
+    font-family: 'trade-gothic-next', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3em;
+    margin: -1.2em 0em 1em 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(119,146,169);
+}
+
+h3 {
+    font-family: 'trade-gothic-next', sans-serif;
+    font-style: bold;
+    font-size: 1.2em;
+    color: rgb(119,146,169);
+    text-transform: uppercase;
+    margin: 2em 0em -0.6em 0em;
+    border: solid rgb(83,99,112);
+    border-width: 1px 0;
+    padding: 0.4em 1em 0.4em 1em;
+}
+
+h4 {
+    color: rgb(83,99,112);
+    font-family: 'trade-gothic-next', sans-serif;
+    margin: 2em 0em -0.5em 0em;
+}
+
+p {
+    margin: 1em 0em -0.5em 0em;   
+}
