@@ -1,0 +1,65 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/pyc1sot.css");
+
+div.container {
+    max-width: 45em;
+    margin: auto;
+}
+
+h1 {
+    font-family: "lavigne-display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(191,52,21);
+    text-align: center;
+    padding: .1em .1em .1em .1em
+}
+
+h2 {
+    font-family: "helvetica", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(89,1,1);
+    text-transform: lowercase;
+}
+
+h3 {
+    font-family: "lavigne-display", sans-serif;
+    font-size: 1.3em;
+    color: rgb(191,52,21);
+    font-weight: 600;
+}
+
+p {
+    font-family: "helvetica", sans-serif;
+    color: rgb(89,1,1);
+    font-size: .90em;
+    padding: .75em 0em .75em 0em
+}
+
+li {
+    font-family: "helvetica", sans-serif;
+    color: rgb(89,1,1);
+    font-size: .90em;
+}
+
+img {
+    align-content: center;
+    width: 100%;
+}
+
+div.directions {
+    float: left;
+    width: 65%;
+}
+
+div.ingredients {
+    float: left;
+    width: 35%;
+}
+
+footer {
+    font-family: "lavigne-display", sans-serif;
+    color: rgb(89,1,1);
+}
