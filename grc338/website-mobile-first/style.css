@@ -17,7 +17,7 @@ header {
 
 nav { 
     float: right;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul {
 nav ul li {
     list-style: none;
     display: inline;
-    margin-left: 2em;
+    margin-left: 1.2em;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 h1 {
-    width: 4.5em;
+    width: 4em;
     float: left;
 }
 
