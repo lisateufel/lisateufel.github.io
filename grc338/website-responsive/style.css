@@ -96,7 +96,7 @@ div.content {
     }
 }
 
-@media only screen and (min-width:20em) {
+@media only screen and (min-width:10em) {
     div.h1 {
         width:2.5em;
     }
