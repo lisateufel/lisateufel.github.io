@@ -97,10 +97,10 @@ div.content {
 }
 
 @media only screen and (min-width:10em) {
-    div.h1 {
+    div.header h1 {
         width:2.5em;
     }
-    div.nav {
+    div.header nav {
         padding-top:1.5em;
     }
 }
