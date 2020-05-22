@@ -1,0 +1,106 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/cmb5pxg.css");
+
+body {
+    background: rgb(250,250,250);
+    font-family: 'interstate', sans-serif;
+}
+
+img {
+    width:100%;
+}
+
+header {
+    width: 100%;
+    clear: both;
+    max-width:60em;
+    margin: auto;
+}
+
+nav { 
+    float: right;
+    padding-top: 2.2em;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+nav ul li a {
+    text-decoration: none;  
+    color: rgb(15,15,15);
+}
+
+h1 {
+    width: 4.2em;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    clear: both;
+}
+
+h3 {
+    margin-top: 1.5em;
+    border: solid rgb(15,15,15);
+    border-width: .75px 0;
+    padding: 0.45em 1em 0.45em 3.3em;
+    text-align: left;
+    clear:both;
+}
+
+h4 {
+    margin-bottom: 0em;
+}
+
+p{
+    max-width:36em;
+    margin: 1em auto;
+}
+
+.menu p {
+    margin: 0.25em 0em 0.25em 0em;
+}
+
+.menu img {
+    padding-bottom:0.75em;
+}
+
+li {
+    list-style-type: none;
+    padding-right:1em;
+}
+
+div.content {
+    max-width:60em;
+    margin: auto;
+    clear:both;
+}
+
+@media only screen and (min-width:30em) {
+    div.menu ul li, h3 {
+        width:60%;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width:20em) {
+    div.h1 {
+        width:2.5em;
+    }
+    div.nav {
+        padding-top:1.5em;
+    }
+}
