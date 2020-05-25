@@ -99,4 +99,8 @@ div.content {
     h1 {
         width: 4.3em;
     }
+    
+    nav {
+        padding-top: 2em;
+    }
 }
