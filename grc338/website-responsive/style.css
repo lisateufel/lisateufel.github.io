@@ -19,7 +19,7 @@ header {
 
 nav { 
     float: right;
-    padding-top: 2.2em;
+    padding-top: 2.4em;
 }
 
 nav ul {
@@ -29,10 +29,11 @@ nav ul {
 nav ul li {
     list-style: none;
     display: inline;
-    margin-left: 1.2em;
+    margin-left: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1em;
+    padding-right: 0em;
 }
 
 nav ul li a {
@@ -41,7 +42,7 @@ nav ul li a {
 }
 
 h1 {
-    width: 4.2em;
+    width: 2.5em;
     float: left;
 }
 
@@ -94,18 +95,8 @@ div.content {
         width:60%;
         margin:auto;
     }
-}
-
-@media only screen and (min-width:5em) {
-    div.header h1 {
-        width:2.5em;
-    }
     
-    div.header nav {
-        padding-top:1.5em;
-    }
-    
-    div.menu h3 {
-        padding-left: 0.45em 1em 0.45em 2.5em;
+    h1 {
+        width: 4.3em;
     }
 }
