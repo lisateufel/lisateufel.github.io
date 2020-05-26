@@ -57,7 +57,7 @@ h3 {
     margin-top: 1.5em;
     border: solid rgb(15,15,15);
     border-width: .75px 0;
-    padding: 0.45em 1em 0.45em 3.3em;
+    padding: 0.45em 1em 0.45em 2.3em;
     text-align: left;
     clear:both;
 }
@@ -102,5 +102,9 @@ div.content {
     
     nav {
         padding-top: 2.5em;
+    }
+    
+    h3 {
+        padding: 0.45em 1em 0.45em 3.3em;
     }
 }
