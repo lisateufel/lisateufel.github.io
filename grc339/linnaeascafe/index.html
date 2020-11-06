@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mid2ovy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <title>Linnaeas Cafe</title>
+</head>
+    
+<body>    
+    <header>
+      <h1><a href="index.html"><img src="linnaeaslogo.jpg" alt="Linnaeas Cafe logo."></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <ul class="coffee">
+        <li><img src="espresso.jpg"><h2>Espresso</h2></li>
+        <li><img src="macchiato.jpg"><h2>Macchiato</h2></li>
+        <li><img src="americano.jpg"><h2>Americano</h2></li>
+        <li><img src="latte.jpg"><h2>Latte</h2></li>
+        <li><img src="cappuccino.jpg"><h2>Cappuccino</h2></li>
+        <li><img src="mocha.jpg"><h2>Mocha</h2></li>
+        <li><img src="flatwhite.jpg"><h2>Flat White</h2></li>
+        <li><img src="irishcoffee.jpg"><h2>Irish Coffee</h2></li>
+      </ul>
+    </main>
+
+    <footer>
+        <div class="cards">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-discover"></i>
+            <i class="fab fa-cc-amex"></i>
+            <i class="fab fa-cc-mastercard"></i>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script>$('.burger').click(function() {
+  $('nav ul').toggleClass('show');
+});</script>
+    
+</body>
+</html>
