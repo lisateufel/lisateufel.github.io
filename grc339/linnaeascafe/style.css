@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    color: #00202C;
+    font-family: 'din-condensed', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 10em auto;
+    width: 100%;
+    clear: both;
+    margin: auto;
+    padding: 0 2em;
+} 
+
+header h1 {
+    padding-top: 0.3em;
+}
+
+footer {
+    padding: 0.5em;
+    background-color: #9EB19E;
+}
+
+.cards {
+    font-size: 2em;
+    color: white;
+    word-spacing: 2em;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+}
+
+nav {
+    padding-top: 1.8em;
+}
+
+nav > ul {
+    height: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+nav ul li a {
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    color: #00202C;
+    text-decoration: none;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin-right: 4em;
+    margin-left: 4em;
+    grid-gap: 1em;
+    text-align: center;
+    list-style: none;
+} 
+
+main ul li h2 {
+    padding-right:2em;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-right: 1em;
+} 
+
+.burger span {
+    height: 3px;
+    width: 20px;
+    margin-bottom: 3px;
+    background: #000;
+    display: block;
+}
+
+@media screen and (max-width:1100px) {
+    main ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        position: relative;
+        height: 2em;
+  }
+    
+    nav ul {
+        position: absolute;
+        right: 0.5em;
+        top: -400px;
+        transition: 0.2s ease all;
+  }
+    
+    nav ul li {
+        display: block;
+        text-align: right;
+        background-color: #eee;
+  }
+    
+    nav .show {
+        top: 1em;
+  }
+    
+    nav > ul {
+        background-color: #eee;
+        display: block;
+        position: relative;
+        height: auto;
+        padding-top: 2.5em;
+        padding-bottom: 2em;
+  }
+    
+    .burger {
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+  }
+
+    main ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+    main ul {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
